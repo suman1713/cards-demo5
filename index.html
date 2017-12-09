@@ -1,0 +1,11 @@
+
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/examples/vendor/aframe/build/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs='trackingMethod: best;'>
+      <a-anchor hit-testing-enabled='true'>
+        <a-plane position="0 0.5 0" src="https://s3.us-east-2.amazonaws.com/cardsar2/resume-suman.JPG" rotation="-90 0 0" width="4" height="4"></a-plane>
+      </a-anchor>
+    <a-camera-static/>
+  </a-scene>
+</body>
